@@ -18,14 +18,13 @@ p{
   color: #333;
 }
 .text-left{
-  margin-left: 50px;
+  margin-left: 10px;
 }
 .list{
   margin-top: 20px;
 }
 li{
   list-style: none; 
-  font-weight: bold;
   line-height: 1.4;
 }
 a{
