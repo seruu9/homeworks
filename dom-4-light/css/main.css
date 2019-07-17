@@ -1,5 +1,8 @@
+.color{
+  background-color: #c9e7dd;
+}
 .container{
-  max-width:1200px;
+  max-width:900px;
   margin: 0 auto;
 }
 .picture{
@@ -17,11 +20,20 @@ p{
   line-height: 1.4; 
   color: #333;
 }
-.text-left{
-  margin-left: 50px;
+.text-fixed{
+  margin: 0;
 }
 .list{
   margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 84%;
+  background-color: #bbbbbb;
+  border: #57ca40 double 3px;
+  box-shadow: 0 0 10px #000000;
+}
+.list, ol{
+  padding: 4px 9px;
 }
 li{
   list-style: none; 
@@ -32,7 +44,7 @@ a{
   text-decoration: none;
   font-weight: none;
   color: #333 ;
-  font-size: 19px;
+  font-size: 15px;
   display: inline-block;
   transition: 0.4s ease-in-out;
 }
@@ -43,4 +55,25 @@ a:hover{
 }
 #notes1,#notes2,#notes3,#notes4,#notes5{
   color: #57ca40;
+}
+h1,h2{
+  text-align: center;
+}
+.a-fixed{
+  position: fixed;
+  top: 92%;
+  left: 90%;
+  font-size: 20px;
+}
+.text-cross{
+  text-decoration: underline;
+}
+.text-bold{
+  font-weight:bold;
+}
+.text-underlined{
+  text-decoration: line-through;
+}
+.text-italics{
+  font-style: italic;  
 }
