@@ -1,0 +1,81 @@
+.color{
+  background-color: #c9e7dd;
+}
+.container{
+  max-width:850px;
+  margin: 0 auto;
+}
+
+.picture{
+  max-width: 500px;
+  max-height: 500px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  box-shadow:5px 5px 10px #2B1015;
+}
+
+p{
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4; 
+  color: #333;
+}
+.text-fixed{
+  margin: 0;
+}
+.list{
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 84%;
+  background-color: #bbbbbb;
+  border: #57ca40 double 3px;
+  box-shadow: 0 0 10px #000000;
+}
+.list, ol{
+  padding: 4px 9px;
+}
+li{
+  list-style: none; 
+  font-weight: bold;
+  line-height: 1.4;
+}
+a{
+  text-decoration: none;
+  font-weight: none;
+  color: #333 ;
+  font-size: 15px;
+  display: inline-block;
+  transition: 0.4s ease-in-out;
+}
+a:hover{
+  color: rgb(113, 243, 108, 0.9);
+  text-decoration: line-through;
+  transition: 0.2s ease-in-out;
+}
+#notes1,#notes2,#notes3,#notes4,#notes5{
+  color: #57ca40;
+}
+h1,h2{
+  text-align: center;
+}
+.a-fixed{
+  position: fixed;
+  top: 92%;
+  left: 90%;
+  font-size: 20px;
+}
+.text-cross{
+  text-decoration: underline;
+}
+.text-bold{
+  font-weight:bold;
+}
+.text-underlined{
+  text-decoration: line-through;
+}
+.text-italics{
+  font-style: italic;  
+}
