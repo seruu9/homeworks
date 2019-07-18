@@ -22,6 +22,7 @@ p{
 }
 .text-fixed{
   margin: 0;
+  color:#0366d6;
 }
 .list{
   margin-top: 20px;
@@ -53,9 +54,7 @@ a:hover{
   text-decoration: line-through;
   transition: 0.2s ease-in-out;
 }
-#notes1,#notes2,#notes3,#notes4,#notes5{
-  color: #57ca40;
-}
+
 h1,h2{
   text-align: center;
 }
@@ -77,3 +76,19 @@ h1,h2{
 .text-italics{
   font-style: italic;  
 }
+#chapter1, #notes4{
+color: #ff0000;
+}
+#chapter2, #notes5{
+color: #ff8c00;
+}
+#chapter3, #notes1{
+color: #6b8e23;
+}
+#chapter3, #notes2{
+color: #008080;
+}
+#chapter5, #notes3{
+color: #c71585;
+}
+
