@@ -5,6 +5,7 @@
 body{
   background: #f6f6f6;
   margin-top: 100px;
+  padding: 0 50px;
  }
 .product-item {
   max-width: 1010px;
