@@ -1,0 +1,76 @@
+body{
+  max-width: 1920px;
+  height: 723px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+}
+.card{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card_h2{
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 125px;
+}
+.card_flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_product{
+  background-color: #ffffff;
+  width: 263px;
+  height: 210px;
+}
+.card_product .img{
+  width: 218px;
+  height: 210px;
+  margin: auto;
+  display: block;
+}
+.card_product img {
+  transition: 1.2s ease-in-out;
+  width: 85%;
+  transform: scale(0.8);
+  
+}
+.card_product img:hover {
+  transform: scale(1.0);
+}
+.card-text{
+  color: #000000;
+  text-align: center;
+  display: block;
+  font-family: "Proxima Nova";
+  background-color: #f9f9f9;
+}
+.card-text P{
+font-size: 16px;
+font-weight: 300;
+margin: 25px 0;
+}
+.card-text span{
+  font-size: 18px;
+  font-weight: 700;
+}.add-to-cart{
+  margin-top: 40px;
+}
+a.cart-button{
+  padding: 23px 74px;
+  color: #23bac1;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #23bac1;
+  transition: 0.5s ease-in-out;
+}
+a.cart-button:hover {
+  background-color: #23bac1; 
+  color: #ffffff;
+}
