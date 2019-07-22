@@ -1,7 +1,3 @@
-body{
-  max-width: 1367px;
-  margin: 0 auto;
-}
 .book{
   width: 100%;
   max-width: 1200px;
@@ -10,12 +6,12 @@ body{
   display: flex;
   justify-content: center;
   padding-top: 77px;
+  margin: 0 auto;
 }
 .book_img{
   width: 100%;
   max-width: 429px;
   margin-right: 40px;
-  margin: 0 auto;
 }
 .book_img img{
   margin: auto;
@@ -28,7 +24,6 @@ body{
 }
 .book_text{
   width: 100%;
-  max-width: 550px;
 
   color: #000000;
   font-family: Tahoma;
@@ -53,19 +48,20 @@ body{
 }
 a.cart-button{
   padding: 23px 74px;
-  color: #f05a22;
+  color: #ffffff;
   font-family: "Proxima Nova";
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  background-color: #f05a22; 
   border: 1px solid #f05a22;
   transition: 0.5s ease-in-out;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 a.cart-button:hover {
-  background-color: #f05a22; 
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #f05a22;
 }
 
 /* =================================== */
