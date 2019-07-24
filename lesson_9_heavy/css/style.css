@@ -2,7 +2,7 @@
 * {
     box-sizing:     border-box;
 }
-.text-center {
+.text-center h1{
     text-align:         center;
     color:              #333333;
     font-family:        Tahoma;
