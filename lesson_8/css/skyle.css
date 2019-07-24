@@ -1,0 +1,221 @@
+
+* {
+    box-sizing:     border-box;
+    font-family:    sans-serif;
+}
+
+body {
+    background-color:       #f4f5f7;
+}
+
+.container {
+    max-width:          1144px;
+    margin-left:        auto;
+    margin-right:       auto;
+    width:              96%;
+}
+
+.navbar {
+    display:            flex;
+    justify-content:    space-between;
+    margin-bottom:      159px;
+}
+
+.bland {
+    color:              #95989a;
+    font-size:          20px;
+    font-weight:        700;
+    text-transform:     uppercase;
+}
+
+.social a {
+    text-decoration:    none;
+    margin-right:       20px;
+}
+
+.hero {
+    padding-top:            70px;
+    padding-bottom:         190px;
+    background-color:       #f4f5f7;
+}
+
+/* ------------------ */
+
+.main {
+    display:            flex;
+    justify-content:    space-between;
+    align-items:        center;
+}
+
+.main-text {
+    width:      50%;
+    color:      #32325f;
+}
+
+.main-imag {
+    margin:     0 auto;
+}
+
+.subtitle {
+    font-size:          20px;
+    font-weight:        400;
+    display:            block;
+    margin-bottom:      15px;
+}
+
+.title {
+    font-size:          48px;
+    font-weight:        700;
+    display:            block;
+    margin-bottom:      26px;
+}
+
+.description {
+    font-size:          20px;
+    font-weight:        400;
+    line-height:        26px;
+    margin-bottom:      16px;
+}
+
+.price-tag {
+    font-size:          20px;
+    font-weight:        400;
+    display:            block;
+    margin-bottom:      16px;
+}
+
+.price {
+    font-size:          48px;
+    font-weight:        400;
+    display:            block;
+    margin-bottom:      49px;
+}
+
+.btn {
+    text-decoration:        none;
+    box-shadow:             0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius:          6px;
+    padding:                20px 30px;
+    color:                  #ffffff;
+    background-color:       #2dce89;
+}
+
+.btn-success {
+    background-color:       #2dce89;
+    margin-right:           20px;
+}
+
+.btn-primary {
+    background-color:       #5e72e4;
+}
+
+/* оформление секцыи */
+
+.about {
+    background-color:       #ffffff;
+}
+
+.section {
+    padding-top:        100px;
+    padding-bottom:     100px;
+}
+
+.section-heading {
+    margin-bottom:      67px;
+    color:              #32325f;
+}
+
+.section-subtitle {
+    display:            block;
+    margin-bottom:      16px;
+    font-weight:        400;
+    font-size:          20px;
+}
+
+.section-title {
+    display:        block;
+    font-size:      48px;
+    font-weight:    700;
+}
+
+.wrep {
+    display:            flex;
+    justify-content:    space-between;
+    flex-wrap:          wrap;
+    margin-top:         100px;
+}
+
+.block {
+    width:              23%;
+    margin-right:       2%;
+}
+
+.block-text {
+    font-weight:    400;
+    font-size:      16px;
+    margin:         40px 0;
+    line-height:    1.4;
+    color:          #525f7f;
+}
+
+/* ---------- people -------- */
+
+/* .people {
+ padding-top:        100px;
+ padding-bottom:     100px;
+ display:            block;
+ }
+
+ .rov {
+ display:            block;
+ margin-left:        auto;
+ margin-right:       auto;
+ }
+
+ .rov img {
+ width:          30%;
+ max-width:      362px;
+ max-height:     245px;
+
+ margin:         18px 13px;
+ }*/
+
+/* ===================== */
+
+.footer {
+    background-color:       #32325f;
+    color:                  #ffffff;
+    padding-top:            70px;
+    padding-bottom:         70px;
+}
+
+.footer-wrep {
+    display:            flex;
+    justify-content:    space-between;
+}
+
+..footer-block {
+    width:      33%;
+}
+
+.footer-block h4 {
+    font-size:          24px;
+    font-weight:        700;
+    margin-bottom:      35px;
+}
+
+.footer-block p {
+    font-size:      16px;
+    font-weight:    700;
+    line-height:    1.4;
+}
+
+.footer-block a {
+    color:              #ffffff;
+    display:            block;
+    text-decoration:    none;
+}
+
+.footer-block a:hover {
+    color:      #2dce89;
+}
