@@ -1,0 +1,29 @@
+
+* {
+    box-sizing:     border-box;
+}
+.text-center {
+    text-align:         center;
+    color:              #333333;
+    font-family:        Tahoma;
+    font-size:          24px;
+    font-weight:        700;
+    text-transform:     uppercase;
+    margin-top:         80px;
+    margin-bottom:      82px;
+}
+
+p {
+    color:          #333333;
+    font-family:    Tahoma;
+    font-size:      16px;
+    font-weight:    700;
+    text-align: center;
+}
+.img{
+  margin-top: 10px;
+  text-align: center;
+}
+img{
+  height: 75px;
+}
