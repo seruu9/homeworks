@@ -10,7 +10,35 @@ body
   align-items: center
   font-family: sans-serif
   box-sizing: border-box
-  background-color: $color-gray 
+  background-color: $color-gray
+  
+//==================================================
+.dws-progress-bar
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+.progress-percentage
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  font-size: 40px
+  font-family: "Verdana", sans-serif
+  flex-wrap: bold 
+  color: darken(desaturate(adjust-hue($color-orange, 174), 13.48), 6.67)
+
+#preloader
+  position: fixed
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0;
+  background: #f6f6f6
+  z-index: 100
+
+//==================================================
+
 .product
   &-center
     width: 1040px
