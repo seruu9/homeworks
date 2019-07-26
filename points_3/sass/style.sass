@@ -1,0 +1,71 @@
+$color-gray: #f6f6f6
+$color-orange: #ec744a
+$color-white: #ffffff
+$color-font: #2f2f2f
+
+body   
+  height: 100vh
+  display: flex;
+  justify-content: center
+  align-items: center
+  font-family: sans-serif
+  box-sizing: border-box
+  background-color: $color-gray 
+.product
+  &-center
+    width: 1040px
+    background-color: $color-white  
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 48px 64px
+  &-item
+    display: flex;
+    justify-content: flex-end;
+  &-img
+    width: 48%
+    img 
+      max-width: 375px
+      margin: 0 auto;
+      transition: 1s ease-in-out;
+      width: 97%;
+      &:hover
+        transform: scale(1.1)
+.product
+  width: 48%
+  max-width: 465px
+  h2 
+    font-size: 23px
+    font-weight: 700
+    color: $color-font
+    margin-top: 30px
+    margin-bottom: 30px
+  p 
+    color: $color-font
+    font-size: 15px
+    font-weight: 400
+    margin-bottom: 55px
+.price
+  display: block
+  color: $color-font
+  font-size: 15px
+  font-weight: 400
+  margin-bottom: 23px
+  &-numbers
+    display: block
+    color: $color-font
+    font-size: 30px
+    font-weight: 400
+    margin-bottom: 56px
+.actions
+  a
+    text-decoration: none
+    background-color: $color-orange
+    color: $color-white
+    font-size: 19px
+    font-weight: 400
+    padding: 14px 39px
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 1.2s ease-out 
+    &:hover
+      background-color: darken(saturate(adjust-hue($color-orange, 9), 19.00), 20.78)
+      transition: 1.2s ease-out 
+      transform: scale(1.1)
