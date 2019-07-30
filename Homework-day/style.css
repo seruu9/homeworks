@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(to bottom, #F11712, #0099F7);
+  height: 135vh;
+  margin:0px;
+  padding:0px;
+  font-family: sans-serif;
+}  
+.menu{
+  width: 960px;
+  margin: 0 auto;
+
+}
+.menu-block{
+  width: 960px;
+  min-height: 36px;
+  background-color: aqua;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 8px;
+  border: 2px solid #0099F7;
+}
+.content{
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 5px;
+ 
+}
+.content a {
+  /* background-color: #ffffff; */
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 12px;
+}
+.content a:hover{
+  color: #0099F7;
+}
+#hider-10, #hider-9, #hider-8, #hider-7, #hider-6, #hider-5, #hider-4, #hider-3,
+#hider-2, #hider {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#hider-10:checked + .content, #hider-9:checked + .content, #hider-8:checked + .content, #hider-7:checked + .content, #hider-6:checked + .content, #hider-5:checked + .content, #hider-4:checked + .content, #hider-3:checked + .content, #hider-2:checked + .content,
+#hider:checked + .content 
+{
+  display: block;
+}
+#clickme-10, #clickme-9, #clickme-8, #clickme-7, #clickme-6, #clickme-5, #clickme-4, #clickme-3, #clickme-2,
+#clickme {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+}
+.content {
+  margin-top: 10px;
+  display: none;
+}
