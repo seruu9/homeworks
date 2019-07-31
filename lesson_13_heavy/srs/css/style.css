@@ -44,7 +44,9 @@ bottom {
           align-items: center;
   margin-right: 8px;
 }
-
+.menu__contacts{
+   margin-bottom: 4px;
+}
 .menu__address {
   display: -webkit-box;
   display: -ms-flexbox;
