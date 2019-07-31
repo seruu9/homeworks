@@ -111,6 +111,10 @@ bottom {
   .menu {
     padding-top: 17px;
   }
+  .menu-block {
+    margin-left: 11px;
+  }
+      
   .menu__logo {
     max-width: 91px;
   }
