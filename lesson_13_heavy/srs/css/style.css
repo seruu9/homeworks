@@ -97,6 +97,8 @@ bottom {
 @media (max-width: 1200px) {
   .container {
     max-width: 978px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
