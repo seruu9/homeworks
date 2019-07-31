@@ -16,6 +16,7 @@ bottom {
   background-color: #ffd200;
   padding: 18px 30px;
   border: none;
+  margin-bottom: 4px;
 }
 
 .menu {
@@ -64,6 +65,8 @@ bottom {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 6px;
+  display: block;
 }
 
 .menu__btm {
