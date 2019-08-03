@@ -1,20 +1,27 @@
-@media (max-width: 1200px)
-  
-  .container
-    padding-left: 10px
-    padding-right: 10px
 
+@media (max-width: 1250px)
+  .container
+    // max-width: 760px
+    padding-left: 20px
+    padding-right: 20px
   .hero
     padding-left: 10px
-    padding-right: 10px
+    &-image
+      img
+        margin-left: 0
+        margin-top: 0
     &-block
       flex-direction: column
-    // &-image img 
-    //   max-width: 100%
     &-list
       margin-bottom: 44px
     &-text
-      padding-right: 10px
+      margin: 0 auto
+      padding-right: 0
+      &__title
+        max-width: 700px
+    &-image
+      margin: 0 auto
+
 @media (max-width: 768px)
   .hero
     &-text
@@ -22,9 +29,14 @@
         font-size: 24px
         line-height: 1.4
         margin-bottom: 13px
+        &__title
+          width: 100%
       &__subtitle
         font-size: 16px
         margin-bottom: 28px
+    &-image
+      img
+        margin-left: 0
     &-list
       &__item
         margin-bottom: 20px

@@ -1,5 +1,4 @@
 .menu
-
   padding: 8px 0
   &-block 
     display: flex
@@ -32,7 +31,9 @@
     font-size: 13px
     +bold
     margin-left: 30px
-  
+    &:hover
+      background-color: lighten($main-color, 10%)
+      cursor: pointer
 .block
   background-color: $color-fon
   &-block
@@ -44,3 +45,4 @@
   padding: 10px 12px
   border-radius: 50%
   border: 2px solid red
+

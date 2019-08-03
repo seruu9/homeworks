@@ -1,3 +1,6 @@
+*
+  box-sizing: border-box
+  
 body
   +reg
 img
@@ -6,8 +9,25 @@ img
 .container
   max-width: 1178px
   margin: 0 auto
-bottom
+buttem
   border-radius: 10px
   background-color: $main-color
   padding: 18px 30px
   border: none
+  +bold
+  color: $color-text
+  // text-align: center
+.section
+  padding: 90px 0
+  &-title 
+    font-size: 24px
+    +bold 
+
+  &-subtitle
+    font-size: 16px
+    display: block
+.input
+  border: 1px solid $border-imput
+  padding: 20px 26px
+  font-size: 15px
+  border-radius: 10px
