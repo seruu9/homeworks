@@ -1,0 +1,49 @@
+.menu
+
+  padding: 8px 0
+  &-block 
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__info
+    display: flex
+    align-items: center
+    margin-right: 8px
+    margin-bottom: 3px
+
+  &__address
+    display: flex
+    flex-direction: column
+    text-align: right
+    color: $color-text
+    font-size: 13px
+    margin-bottom: 7px
+  &__phone
+    color: $color-text
+    font-size: 20px
+    letter-spacing: 0.3px
+    +bold
+    text-decoration: none
+  &__phone:hover
+    color: $main-color
+
+  &__btm
+    color: $color-text
+    font-size: 13px
+    +bold
+    margin-left: 30px
+    &:hover
+      background-color: lighten($main-color, 10%)
+      cursor: pointer
+.block
+  background-color: $color-fon
+  &-block
+    display: flex
+    justify-content: 
+    
+.icon-img
+  width: 18px
+  padding: 10px 12px
+  border-radius: 50%
+  border: 2px solid red
+
