@@ -280,9 +280,6 @@ buttem {
 .offer__imput {
   width: 240px;
   margin-bottom: 29px;
-}
-
-.offer__imput:first-child {
   margin-right: 10px;
 }
 
@@ -349,7 +346,7 @@ buttem {
 .modal-dialog {
   position: relative;
   margin: auto;
-  max-width: 450px;
+  max-width: 570px;
   width: 90%;
   min-width: 200px;
   background-color: #ffffff;
@@ -365,6 +362,54 @@ buttem {
   cursor: pointer;
   border: 1px solid;
   border-radius: 0px;
+}
+
+.modal-colum {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modal__title {
+  color: #333333;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 52px;
+}
+
+.modal__subtitle {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 53px;
+}
+
+.modal__imput {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.modal__buttem {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.modal-telefon__call-back {
+  margin-top: 33px;
+  display: block;
+  color: #333333;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.modal-telefon__tel {
+  color: #333333;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 @media (max-width: 1250px) {
