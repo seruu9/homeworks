@@ -662,6 +662,13 @@ button {
   .step:after {
     display: none;
   }
+  .steps-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 1113px) {
@@ -913,7 +920,7 @@ button {
     width: 87%;
   }
   .price {
-    padding-bottom: 56px;
+    padding-bottom: 10px;
     padding-top: 52px;
   }
   .price__title {
@@ -924,6 +931,7 @@ button {
     margin-bottom: 61px;
   }
   .card {
+    margin-bottom: 33px;
     margin-left: 3px;
     margin-right: 5px;
   }
@@ -936,6 +944,25 @@ button {
   .card__title {
     font-size: 13px;
     margin-bottom: 14px;
+  }
+  .step {
+    margin-bottom: 41px;
+  }
+  .step__text {
+    font-size: 12px;
+  }
+  .step__image {
+    margin-bottom: 25px;
+  }
+  .steps {
+    padding-top: 10px;
+  }
+  .steps__title {
+    margin-bottom: 27px;
+  }
+  .steps__subtitle {
+    font-size: 14px;
+    margin-bottom: 32px;
   }
 }
 /*# sourceMappingURL=style.css.map */
