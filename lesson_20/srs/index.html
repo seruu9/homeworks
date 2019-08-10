@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lesson_20</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="menu">
+    <div class="container">
+      <div class="menu-block">
+        <div class="menu__logo">
+          <a href="#!">
+            <img src="img/logo.png" alt="" class="menu__logo-img">
+          </a>
+        </div>
+        <div class="menu__info">
+          <div class="menu__contacts">
+            <span class="menu__address">Калуга, Москва, МО
+            </span>
+            <a href="tel+7 (495) 42-251-31" class="menu__phone">+7 (495) 42-251-31</a>
+          </div>
+          <button class="menu__btm" id="button">Перезвоните мне</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-block">
+          <div class="hero-text">
+            <h1 class="hero-text__title">
+              Внутренняя отделка помещений "под ключ"
+            </h1>
+            <span class="hero-text__subtitle">
+              с гарантией качества, прописанной в договоре
+            </span>
+            <ul class="hero-list">
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="img/hero/clock.png" alt="clock">
+                </div>
+                <span class="hero-list__text">Точно соблюдаем сроки</span>
+              </li>
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="img/hero/calculator.png" alt="calculator">
+                </div>
+                <span class="hero-list__text">Рассчитаем смету на работы
+                  и материалы в день обращения</span>
+              </li>
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="img/hero/paint-bord.png" alt="paint-bord">
+                </div>
+                <span class="hero-list__text">Предложим более 100 вариантов
+                  исполнения дизайна Вашего жилья</span>
+              </li>
+            </ul>
+
+          </div>
+          <!-- /.hero-text -->
+          <div class="hero-image">
+            <img src="img/hero/hero-image.png" alt="План квартиры">
+          </div>
+          <!-- /.hero-image -->
+        </div>
+        <!-- /.hero-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+  </main>
+
+  <section class="offer t-section">
+    <div class="container">
+      <div class="offer-block">
+        <h2 class="section-title offer__title">
+          Мы бесплатно разработаем
+          дизайн-проект Вашего жилья
+          и реализуем его!
+        </h2>
+        <!-- /.section-title -->
+        <span class="section-subtitle offer__subtitle">
+          Оставьте заявку на разработку
+          бесплатного дизайн-проекта!
+        </span>
+        <form action="#" id="offer-form" class="form offer__form">
+          <input type="text" name="username" class="input offer__imput" placeholder="Ваше имя">
+          <input type="tell" name="userphone" class="input offer__imput" placeholder="Ваш телефон">
+          <button class="button offer__button">Получить бесплатный дизайн-проект
+          </button>
+        </form>
+        <div class="success"></div>
+        <div class="offer-telefon">
+          <div class="offer-manager">
+            <span>Наш менеджер перезвонит Вам
+              в течение 60 секунд
+            </span>
+          </div>
+          <div class="offer-call">
+            <span class="offer-telefon__call-back">или перезвоните нам сами</span>
+            <span class="offer-telefon__tel">+7 (495) 42-251-31</span>
+          </div>
+        </div>
+      </div>
+      <!-- /.section-subtitle -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.offer -->
+
+  <div class="modal" id="modal">
+    <div class="modal-dialog">
+      <button class="modal-dialog__close" id="close">&times;</button>
+      <div class="modal-colum">
+        <div class="modal-content"></div>
+      </div>
+      <div class="modal-colum">
+        <h2 class="section-title modal__title">
+          Узнайте точную стоимость
+          ремонта по телефону!
+        </h2>
+        <!-- /.section-title -->
+        <span class="section-subtitle modal__subtitle">
+          Заполните поля ниже - мы свяжемся с Вами
+        </span>
+        <form action="#" class="form modal__form">
+          <input type="text" class="input modal__imput" placeholder="Ваше имя">
+          <input type="tell" class="input modal__imput" placeholder="Ваш телефон">
+          <button class="button modal__button">Получить бесплатный дизайн-проект
+          </button>
+        </form>
+        <div class="modal-call">
+          <span class="modal-telefon__call-back">или перезвоните нам сами</span>
+          <span class="modal-telefon__tel">+7 (495) 42-251-31</span>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <section class="section porfolio">
+    <div class="container">
+      <h2 class="section-title porfolio__title">Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах
+      </h2>
+      <div class="slider">
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-1.jpg" alt=""></div>
+        <!-- /.slider__item -->
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-2.jpg" alt=""></div>
+        <!-- /.slider__item -->
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-3.jpg" alt=""></div>
+        <!-- /.slider__item -->
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-1.jpg" alt=""></div>
+        <!-- /.slider__item -->
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-2.jpg" alt=""></div>
+        <!-- /.slider__item -->
+        <div class="slider__item"><img class="slider__image" src="img/porfolio/slider-3.jpg" alt=""></div>
+        <!-- /.slider__item -->
+      </div>
+      <div class="arrows porfolio__arrows">
+        <div class="arrows__left">
+          <img src="img/porfolio/left-arrow.png" alt="">
+        </div>
+        <div class="arrows__right">
+          <img src="img/porfolio/rigth-arrow.png" alt="">
+        </div>
+      </div>
+      <!-- /.slider -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.section porfolio -->
+
+
+
+
+  <!-- <script src="js/main.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+</body>
+
+</html>
