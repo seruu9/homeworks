@@ -748,9 +748,16 @@ button {
   display: block;
 }
 
-.error {
+#offer-form {
+  position: relative;
+}
+
+#offer-form #username-error {
+  position: absolute;
   color: red;
   border: 1px solid red;
+  top: 70px;
+  left: 20px;
 }
 
 @media (max-width: 1250px) {
@@ -788,10 +795,18 @@ button {
   }
   .offer__imput {
     width: 99%;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+  }
+  .offer__imput:first-child {
+    margin-bottom: 28px;
+    margin-top: 10px;
   }
   .offer__button {
     font-size: 13px;
+  }
+  #offer-form #username-error {
+    top: 80px;
+    left: 20px;
   }
   .step {
     margin-bottom: 30px;
