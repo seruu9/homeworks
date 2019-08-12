@@ -26,6 +26,56 @@ $(".phone").mask("+8 (999) 999 - 99 - 99");
       },
       phones: {
         required: true
+      }
+    },
+    messages: {
+      username: {
+        required: "Укажыте имя",
+        minlength: jQuery.validator.format("Осталось символов: {0}"),
+        maxlength: jQuery.validator.format("Привышен количество символов: {0}")
+      },
+    phone: {
+      required: "Укажыте телефон"
+      // minlength: jQuery.validator.format("Осталось символов: {0}"),
+      // maxlength: jQuery.validator.format("Привышен количество символов: {0}")
+    }
+    }
+  });
+// ///////////////////////////////////////////////////////
+$('#modal__form').validate({
+  rules:{
+    username: {
+      required: true,
+      minlength: 2,
+      maxlength: 15
+    },
+    phones: {
+      required: true
+    }
+  },
+  messages: {
+    username: {
+      required: "Укажыте имя",
+      minlength: jQuery.validator.format("Осталось символов: {0}"),
+      maxlength: jQuery.validator.format("Привышен количество символов: {0}")
+    },
+  phone: {
+    required: "Укажыте телефон"
+    // minlength: jQuery.validator.format("Осталось символов: {0}"),
+    // maxlength: jQuery.validator.format("Привышен количество символов: {0}")
+  }
+  }
+});
+// ///////////////////////////////////////////////////////
+  $('#offer-form').validate({
+    rules:{
+      username: {
+        required: true,
+        minlength: 2,
+        maxlength: 15
+      },
+      phones: {
+        required: true
       },
       email: {
         required: true,
