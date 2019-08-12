@@ -45,7 +45,7 @@ button {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -466,6 +466,10 @@ button {
   margin: auto;
 }
 
+.price {
+  padding-bottom: 40px;
+}
+
 .price__title {
   margin: 0 auto;
   margin-bottom: 58px;
@@ -611,6 +615,10 @@ button {
   margin: auto;
 }
 
+.steps {
+  padding-top: 40px;
+}
+
 .steps__title {
   margin: auto;
   margin-bottom: 59px;
@@ -741,7 +749,6 @@ button {
 }
 
 .error {
-  margin: 0;
   color: red;
   border: 1px solid red;
 }
@@ -801,6 +808,10 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .brif {
+    padding-bottom: 16px;
+    padding-top: 0px;
+  }
   .brif__form {
     padding-left: 30px;
   }
@@ -843,6 +854,18 @@ button {
   }
   .offer-block {
     padding-right: 20px;
+  }
+  .brif {
+    padding-bottom: 20px;
+    padding-top: 27px;
+  }
+  .brif__input {
+    padding: 18px;
+  }
+  .brif__button {
+    height: 53px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
@@ -943,7 +966,7 @@ button {
   .brif {
     background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
     background-position: top center, center bottom;
-    background-size: 100% 50%, cover;
+    background-size: 100% 46%, cover;
     background-repeat: repeat-x,no-repeat;
   }
   .brif__interview {
@@ -1144,6 +1167,21 @@ button {
   .steps__subtitle {
     font-size: 14px;
     margin-bottom: 32px;
+  }
+  .interview__subtitle {
+    font-size: 14px;
+  }
+  .interview__title {
+    font-size: 18px;
+  }
+  .interview-list__text {
+    max-width: 199px;
+  }
+  .brif__interview {
+    max-width: 500px;
+    padding-top: 49px;
+    margin: auto;
+    margin-bottom: 53px;
   }
 }
 /*# sourceMappingURL=style.css.map */
