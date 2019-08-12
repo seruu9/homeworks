@@ -17,7 +17,7 @@ $(document).ready(function(){
 // маска телефона
 $(".phone").mask("+8 (999) 999 - 99 - 99");
 // валидацыя формы
-  $('#brif-form').validate({
+  $('#offer-form').validate({
     rules:{
       username: {
         required: true,
@@ -67,7 +67,7 @@ $('#modal__form').validate({
   }
 });
 // ///////////////////////////////////////////////////////
-  $('#offer-form').validate({
+  $('#brif-form').validate({
     rules:{
       username: {
         required: true,
