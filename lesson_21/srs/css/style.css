@@ -41,10 +41,11 @@ button {
   font-family: 'Museo Sans bold', sans-serif;
   font-weight: 700;
   color: #333333;
+  outline: none;
 }
 
 .section {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -65,6 +66,7 @@ button {
   padding: 23px 26px;
   font-size: 15px;
   border-radius: 6px;
+  outline: none;
 }
 
 .arrows__left:hover, .arrows__right:hover {
@@ -302,6 +304,11 @@ button {
   font-size: 16px;
 }
 
+.offer__button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
 .offer-telefon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -371,12 +378,13 @@ button {
 .modal-dialog__close {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 6px;
   padding: 4px;
   background-color: #ffffff;
   cursor: pointer;
   font-size: 19px;
   border-radius: 0px;
+  outline: none;
 }
 
 .modal-colum {
@@ -410,6 +418,11 @@ button {
   display: block;
   width: 85%;
   margin: 0 auto;
+}
+
+.modal__button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
 }
 
 .modal-telefon__call-back {
@@ -451,6 +464,10 @@ button {
 
 .slider__image {
   margin: auto;
+}
+
+.price {
+  padding-bottom: 40px;
 }
 
 .price__title {
@@ -598,6 +615,10 @@ button {
   margin: auto;
 }
 
+.steps {
+  padding-top: 40px;
+}
+
 .steps__title {
   margin: auto;
   margin-bottom: 59px;
@@ -612,6 +633,124 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.brif {
+  background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+  background-position: left center, center right;
+  background-size: 50%, contain;
+  background-repeat: repeat-y,no-repeat;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.brif-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brif__interview {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.brif__form {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 200px;
+  text-align: center;
+}
+
+.brif__input {
+  width: 100%;
+  max-width: 370px;
+  margin-bottom: 15px;
+}
+
+.brif__button {
+  height: 70px;
+  width: 100%;
+  max-width: 370px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.brif__button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
+.interview {
+  padding-right: 70px;
+}
+
+.interview__title {
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+}
+
+.interview__subtitle {
+  display: block;
+  margin-bottom: 95px;
+  font-size: 16px;
+}
+
+.interview-list {
+  list-style: none;
+  padding: 0;
+}
+
+.interview-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.interview-list__conter {
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 30px;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+.interview-list__text {
+  max-width: 400px;
+}
+
+.form__title {
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+}
+
+.form__subtitle {
+  display: block;
+  margin-bottom: 95px;
+  font-size: 16px;
+}
+
+.form__description {
+  display: block;
+}
+
+.error {
+  color: red;
+  border: 1px solid red;
 }
 
 @media (max-width: 1250px) {
@@ -669,6 +808,37 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .brif {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .brif__form {
+    padding-left: 30px;
+  }
+  .interview {
+    padding-right: 30px;
+  }
+  .interview__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .interview__subtitle {
+    margin-bottom: 30px;
+  }
+  .interview-list__text {
+    font-size: 14px;
+    max-width: 300px;
+  }
+  .interview-list__counter {
+    margin-right: 20px;
+  }
+  .form__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .form__subtitle {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 1113px) {
@@ -684,6 +854,18 @@ button {
   }
   .offer-block {
     padding-right: 20px;
+  }
+  .brif {
+    padding-bottom: 20px;
+    padding-top: 27px;
+  }
+  .brif__input {
+    padding: 18px;
+  }
+  .brif__button {
+    height: 53px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
@@ -780,6 +962,28 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top center, center bottom;
+    background-size: 100% 46%, cover;
+    background-repeat: repeat-x,no-repeat;
+  }
+  .brif__interview {
+    max-width: 500px;
+    margin: auto;
+  }
+  .brif-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brif__form {
+    margin-top: 80px;
+  }
+  .interview {
+    padding-right: 0;
   }
 }
 
@@ -963,6 +1167,21 @@ button {
   .steps__subtitle {
     font-size: 14px;
     margin-bottom: 32px;
+  }
+  .interview__subtitle {
+    font-size: 14px;
+  }
+  .interview__title {
+    font-size: 18px;
+  }
+  .interview-list__text {
+    max-width: 199px;
+  }
+  .brif__interview {
+    max-width: 500px;
+    padding-top: 49px;
+    margin: auto;
+    margin-bottom: 53px;
   }
 }
 /*# sourceMappingURL=style.css.map */
